@@ -63,7 +63,7 @@ class _CurrencyHomePageState extends State<CurrencyHomePage> {
                 onPressed: () {
                   setState(() {
                     result =
-                        (double.parse(textEditingController.text) * 1580.88);
+                        (double.parse(textEditingController.text) * 1580.88); // change your currency rate
                   });
                 },
                 style: TextButton.styleFrom(
